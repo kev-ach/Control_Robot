@@ -18,87 +18,54 @@ button
 }
 body
 {
-margin-left:50px;
-margin-right:auto;
-text-align:left;
-width :400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width:auto;
+	text-align:center;
 }
+
 
 #block1
 {
-	position : absolute;
-	left:200px;
-	top:100px;
+	position : static;
+	margin-top: 100px;
 }
 
 #block2
 {
-	position :absolute;
-	left:75px;
-	top:220px;
+	position : absolute;
+	margin-top: 10px;
+	margin-left: 505px;
 }
 
 #block3
 {
 	position : absolute;
-	left:325px;
-	top:220px;
+	margin-top: 10px;
+	margin-left: 750px;
 }
 
 #block4
 {
-	position :absolute;
-	left:200px;
-	top:340px;
+	position :static;
+	margin-top: 130px;
 }
 #block5
 {
-	position :absolute;
-	left:200px;
-	top:220px;
-}
-#block6
-{
-	position :absolute;
-	left:230px;
-	top:580px;
-}
-
-#block7
-{
-	position : absolute;
-	left:580px;
-	top:150px;
-}
-
-#block8
-{
-	position :absolute;
-	left:520px;
-	top:230px;
-}
-
-#block9
-{
-	position : absolute;
-	left:640px;
-	top:230px;
-}
-
-#block10
-{
-	position :absolute;
-	left:580px;
-	top:310px;
+	position :static;
+	margin-top: -230px;
 }
 
 #Texte1
 {
-	position :absolute;
-	left:136px;
+	position : relative;
+	margin-left: auto;
+	margin-right: auto;
 	top:10px;
 	border: 2px solid #666;
-	background-color :#BCF5A9;
+	background-color :#fbff0094;
 }
 #Texte2
 {
@@ -106,7 +73,7 @@ width :400px;
 	left:310px;
 	top:480px;
 	border: 2px solid #666;
-	background-color :#BCF5A9;
+	background-color :#fbff0094;
 }
 #Texte3
 {
@@ -114,5 +81,5 @@ width :400px;
 	left:490px;
 	top:10px;
 	border: 2px solid #666;
-	background-color :#BCF5A9;
+	background-color :#fbff0094;
 }
